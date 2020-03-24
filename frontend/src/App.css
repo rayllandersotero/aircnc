@@ -1,94 +1,94 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:400,700&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
 }
 
 html,
 body,
 #root {
-  min-height: 100%;
+	min-height: 100%;
 }
 
 body {
-  background: #000 url("./assets/background.jpg") no-repeat;
-  background-size: cover;
-  -webkit-font-smoothing: antialiased !important;
+	background: #000 url("./assets/background.jpg") no-repeat;
+	background-size: cover;
+	-webkit-font-smoothing: antialiased !important;
 }
 
 body,
 input,
 button {
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
+	font-family: "Roboto", sans-serif;
+	font-size: 1rem;
 }
 
 .container {
-  margin: 80px auto 0;
-  width: 100%;
-  max-width: 450px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	margin: 80px auto 0;
+	width: 100%;
+	max-width: 450px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .content {
-  width: 100%;
-  background: #fff;
-  margin-top: 50px;
-  border-radius: 4px;
-  padding: 30px;
+	width: 100%;
+	background: #fff;
+	margin-top: 50px;
+	border-radius: 4px;
+	padding: 30px;
 }
 
 .content > p {
-  font-size: 22px;
-  line-height: 30px;
-  margin-bottom: 30px;
+	font-size: 22px;
+	line-height: 30px;
+	margin-bottom: 30px;
 }
 
 .content form {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .content form label {
-  font-size: 1rem;
-  color: #444;
-  font-weight: bold;
-  margin-bottom: 8px;
+	font-size: 1rem;
+	color: #444;
+	font-weight: bold;
+	margin-bottom: 8px;
 }
 
 .content form label span {
-  font-size: 0.8rem;
-  color: #999;
-  font-weight: normal;
+	font-size: 0.8rem;
+	color: #999;
+	font-weight: normal;
 }
 
 .content form input {
-  margin-bottom: 20px;
-  border: 1px solid #ddd;
-  border-radius: 2px;
-  height: 45px;
-  padding: 0 15px;
-  font-size: 1.1rem;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	height: 45px;
+	padding: 0 15px;
+	font-size: 1.1rem;
 }
 
 .content button.login {
-  border: 0;
-  border-radius: 2px;
-  width: 100%;
-  height: 42px;
-  padding: 0 20px;
-  font-size: 1rem;
-  font-weight: bold;
-  background: #f05a5b;
-  cursor: pointer;
-  color: white;
+	border: 0;
+	border-radius: 2px;
+	width: 100%;
+	height: 42px;
+	padding: 0 20px;
+	font-size: 1rem;
+	font-weight: bold;
+	background: #f05a5b;
+	cursor: pointer;
+	color: white;
 }
 
 .content button.login:hover {
-  background: #e14050;
+	background: #e14050;
 }

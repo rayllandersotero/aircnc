@@ -1,15 +1,15 @@
-import React, { useState } from 'react'
-import api from '../../services/api'
+import React, { useState } from 'react';
+import api from '../../services/api';
 
 export default function Login({ history }) {
-    const [email, setEmail] = useState('')
+    const [email, setEmail] = useState('');
 
     async function loginSubmit(e) {
-        e.preventDefault()
-        const response = await api.post('/sessions', { email })
-        const { _id } = response.data
-        localStorage.setItem('user', _id)
-        history.push('/dashboard')
+        e.preventDefault();
+        const response = await api.post('/sessions', { email });
+        const { _id } = response.data;
+        localStorage.setItem('user', _id);
+        history.push('/dashboard');
     }
 
     return (
@@ -24,5 +24,5 @@ export default function Login({ history }) {
                 <button type="submit" className="login">Entrar</button>
             </form>
         </>
-    )
+    );
 }
